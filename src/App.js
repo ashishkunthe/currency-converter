@@ -28,6 +28,7 @@ export default function App() {
 
   return (
     <div>
+      <Hearder />
       <input
         type="text"
         value={amount}
@@ -51,4 +52,8 @@ export default function App() {
       </p>
     </div>
   );
+}
+
+function Hearder() {
+  return <h1>Hello Welcome to Currency Converter</h1>;
 }
